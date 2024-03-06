@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Fetch file action step
         id: fetch
-        uses: siakaramalegos/update-optimizely-action@v0.1.1
+        uses: siakaramalegos/update-optimizely-action@v0.1.2
         with:
           url: 'https://cdn.optimizely.com/js/27455040065.js'
           filename: 'optimizely.js'
