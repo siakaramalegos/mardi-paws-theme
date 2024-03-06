@@ -1,15 +1,16 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  fetch_file_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to fetch a file
     steps:
-      - name: Hello world action step
-        id: hello
-        uses: siakaramalegos/update-optimizely-action@v1.1
+      - name: Fetch file action step
+        id: fetch
+        uses: siakaramalegos/update-optimizely-action@v0.1
         with:
-          who-to-greet: 'Sia'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          url: 'https://cdn.optimizely.com/js/27455040065.js'
+          filename: 'optimizely.js'
+      # Use the output from the `fetch` step
+      - name: Get the status of the fetch
+        run: echo "The status is ${{ steps.fetch.outputs.status }}"
