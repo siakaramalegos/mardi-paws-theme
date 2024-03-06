@@ -1,0 +1,16 @@
+on: [push]
+
+jobs:
+  fetch_file_job:
+    runs-on: ubuntu-latest
+    name: A job to fetch a file
+    steps:
+      - name: Fetch file action step
+        id: fetch
+        uses: siakaramalegos/update-optimizely-action@v0.1.6
+        with:
+          url: 'https://cdn.optimizely.com/js/27455040065.js'
+          filename: 'optimizely.js'
+      # Use the output from the `fetch` step
+      - name: Get the status of the fetch
+        run: echo "The status is ${{ steps.fetch.outputs.status }}"
