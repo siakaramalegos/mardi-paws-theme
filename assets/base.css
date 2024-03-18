@@ -3521,11 +3521,11 @@ details-disclosure > details {
 /* Custom CSS */
 
 .product__description {
-  padding-top: 77px;
+  margin-top: 77px;
 }
 
 #trustpilot-widget-trustbox-0-wrapper + .product__description {
-  padding-top: 25px;
+  margin-top: 25px;
 }
 /* .trustpilot-widget {
   min-height: 52px;
