@@ -3519,6 +3519,10 @@ details-disclosure > details {
 }
 
 /* Custom CSS */
-.trustpilot-widget {
-  min-height: 52px;
+
+div.not(#trustpilot-widget-trustbox-0-wrapper) + .product__description {
+  margin-top: 52px;
 }
+/* .trustpilot-widget {
+  min-height: 52px;
+} */
