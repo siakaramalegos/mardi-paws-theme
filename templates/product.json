@@ -20,11 +20,6 @@
           "settings": {
           }
         },
-        "judge_me_reviews_preview_badge_yDJ6cR": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -60,7 +55,6 @@
         "vendor",
         "title",
         "price",
-        "judge_me_reviews_preview_badge_yDJ6cR",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -68,7 +62,7 @@
         "share"
       ],
       "custom_css": [
-        ".shopify-app-block {min-height: 23px;}"
+
       ],
       "settings": {
         "enable_sticky_info": true,
