@@ -3517,16 +3517,3 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
-
-/* Custom CSS */
-
-/* .product__description {
-  margin-top: 77px;
-} */
-
-:not(#trustpilot-widget-trustbox-0-wrapper) + .product__description {
-  margin-top: 77px;
-}
-/* .trustpilot-widget {
-  min-height: 52px;
-} */
