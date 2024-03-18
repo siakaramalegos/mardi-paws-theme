@@ -3520,12 +3520,12 @@ details-disclosure > details {
 
 /* Custom CSS */
 
-.product__description {
+/* .product__description {
   margin-top: 77px;
-}
+} */
 
 not(#trustpilot-widget-trustbox-0-wrapper) + .product__description {
-  margin-top: 25px;
+  margin-top: 77px;
 }
 /* .trustpilot-widget {
   min-height: 52px;
