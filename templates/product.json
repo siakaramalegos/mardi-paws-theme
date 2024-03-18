@@ -67,6 +67,9 @@
         "description",
         "share"
       ],
+      "custom_css": [
+        ".shopify-app-block {min-height: 23px;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
