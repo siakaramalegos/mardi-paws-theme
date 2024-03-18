@@ -3520,7 +3520,7 @@ details-disclosure > details {
 
 /* Custom CSS */
 
-div.not(#trustpilot-widget-trustbox-0-wrapper) + .product__description {
+.not(#trustpilot-widget-trustbox-0-wrapper) + .product__description {
   padding-top: 52px;
 }
 /* .trustpilot-widget {
